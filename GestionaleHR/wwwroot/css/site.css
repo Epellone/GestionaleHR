@@ -1,0 +1,142 @@
+
+/*Un file CSS (Cascading Style Sheet) è
+    un tipo di file utilizzato per definire
+    lo stile e l'aspetto visuale di una pagina web. 
+    Questo file contiene una serie di regole e dichiarazioni 
+    che vengono applicate agli elementi HTML della pagina 
+    per determinare come dovrebbero essere formattati e 
+    visualizzati dagli utenti.
+    Un file CSS può essere collegato a una pagina HTML 
+    utilizzando il tag <link> nel <head> della pagina. 
+    colori: lilla e arancione
+*/
+
+/* Reset dei margini e dei padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile del corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigazione */
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+    .navbar ul {
+        list-style: none;
+        display: flex;
+    }
+
+    .navbar li {
+        margin-right: 20px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s;
+    }
+
+        .navbar a:hover {
+            color: #007bff;
+        }
+
+/* Contenuto principale */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+/* Pulsanti */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+/* Form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+    .menu-link:hover {
+        color: #007bff;
+    }

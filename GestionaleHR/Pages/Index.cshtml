@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!--
+    creare un menu che permetta l'accesso alla login (con identity) e collegamenti a pagine in cui non serve l'accesso
+    pagine senza bisogno dell'accesso: visualizzazione lista colloqui in base al giorno, lista sedi con info, lista dipendenti 
+-->
+
+<h2>Menu principale</h2>
+
+<div class="menu-links">
+    <a href="/AnagraficaSedi" class="menu-link">Anagrafica Sedi</a>
+    <a href="/SoftSkills" class="menu-link">Soft Skills</a>
+    <a href="/HardSkills" class="menu-link">Hard Skills</a>
+    <a href="/TitoliDiStudio" class="menu-link">Titoli di Studio</a>
+    <a href="/LivelliContrattuali" class="menu-link">Livelli Contrattuali</a>
+    <a href="/TipologiaColloquio" class="menu-link">Tipoliga Colloquio</a>
+    <a href="/Benefits" class="menu-link">Benefits</a>
+    <a href="/Mansioni" class="menu-link">Mansioni</a>
+</div>
+
+
