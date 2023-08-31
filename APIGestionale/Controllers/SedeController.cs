@@ -40,7 +40,7 @@ namespace APIGestionale.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public Sede RemoveById([FromBody] int id)
+        public Sede RemoveById(int id)
         {
             return repository.RemovebyId(id);
         }

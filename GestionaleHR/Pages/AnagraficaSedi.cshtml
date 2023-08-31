@@ -20,7 +20,6 @@
             <th>Descrizione Sede</th>
             <th>Indirizzo</th>
             <th>Recapito</th>
-            <th>Referente</th>
             <th>Email</th>
             <th>Referente</th>
             <th></th>
@@ -37,14 +36,14 @@
                 <td>@sede.IdDipendente</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@sede.IDSede">Modifica</a> |
-                    <a asp-action="Delete" asp-route-id="@sede.IDSede">Elimina</a>
+                    <a asp-action="Delete" asp-route-id="@sede.IDSede" onclick="return confirm('Sei sicuro di voler eliminare questa sede?')">Elimina</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<button id="addButton">Aggiungi Nuova Sede</button>
+<button asp-page="/Aggiunginuovasede" id="addButton">Aggiungi Nuova Sede</button>
 
 @section Scripts {
     <script>

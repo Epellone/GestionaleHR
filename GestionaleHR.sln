@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionaleHR", "GestionaleHR\GestionaleHR.csproj", "{01DDFCEC-B2C8-4C03-AC03-12726B60F7FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGestionale", "APIGestionale\APIGestionale.csproj", "{7FE4C10E-0EBF-4DEF-9A8B-087D7577567C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGestionale", "APIGestionale\APIGestionale.csproj", "{7FE4C10E-0EBF-4DEF-9A8B-087D7577567C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

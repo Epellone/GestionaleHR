@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GestionaleHR.Pages
 {
-    public class ColloquiModel : PageModel
+    public class AggiunginuovasedeModel : PageModel
     {
         public void OnGet()
         {
